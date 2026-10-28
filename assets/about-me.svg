@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title description">
+  <title id="title">About Oscar Chen</title>
+  <desc id="description">Product Developer from Harbin, focused on clean architecture, delightful interfaces and meaningful innovation.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#161B27"/>
+    </linearGradient>
+    <filter id="highlight" x="-10%" y="-20%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.2"/>
+    </filter>
+    <text id="about-text" x="48" y="54" fill="#F8FAFC" font-family="Fira Code, JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="20" font-weight="500" letter-spacing="0.2" xml:space="preserve">
+      <tspan x="48" dy="0">Developer by passion, creator by nature.</tspan>
+      <tspan x="48" dy="34">I transform ambitious ideas into intuitive products,</tspan>
+      <tspan x="48" dy="34">combining thoughtful design, reliable engineering</tspan>
+      <tspan x="48" dy="34">and meaningful user experiences.</tspan>
+      <tspan x="48" dy="34">01 / Building something worth remembering.</tspan>
+      <tspan x="48" dy="34">02 / Exploring modern web technology and creative coding.</tspan>
+      <tspan x="48" dy="34">03 / Open to open-source collaboration and interesting projects.</tspan>
+      <tspan x="48" dy="34">04 / Always learning, always improving.</tspan>
+      <tspan x="48" dy="34">name: "Oscar Chen"</tspan>
+      <tspan x="48" dy="34">role: "Product Developer"</tspan>
+      <tspan x="48" dy="34">location: "Harbin"</tspan>
+      <tspan x="48" dy="34">focus:</tspan>
+      <tspan x="48" dy="34">  - "Clean architecture"</tspan>
+      <tspan x="48" dy="34">  - "Delightful interfaces"</tspan>
+      <tspan x="48" dy="34">  - "Meaningful innovation"</tspan>
+      <tspan x="48" dy="34">currently_learning:</tspan>
+      <tspan x="48" dy="34">  - "New technologies"</tspan>
+      <tspan x="48" dy="34">  - "Better ways to create"</tspan>
+      <tspan x="48" dy="34">motto: "Make it simple. Make it memorable."</tspan>
+    </text>
+  </defs>
+  <rect width="1200" height="720" rx="18" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="718" rx="17" fill="none" stroke="#30363D"/>
+  <use href="#about-text" filter="url(#highlight)" opacity="0.1">
+    <animate attributeName="opacity" values="0.08;0.7;0.08" keyTimes="0;0.5;1" dur="2.8s" repeatCount="indefinite"/>
+  </use>
+  <use href="#about-text"/>
+</svg>
